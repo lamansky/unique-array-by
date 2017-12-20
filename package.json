@@ -1,0 +1,35 @@
+{
+  "name": "unique-array-by",
+  "version": "1.0.0",
+  "description": "Filters an array by testing uniqueness with a callback, an index, or a key.",
+  "keywords": [
+    "unique",
+    "array",
+    "filter"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/unique-array-by",
+  "repository": "lamansky/unique-array-by",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "unique-iterable-by": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
